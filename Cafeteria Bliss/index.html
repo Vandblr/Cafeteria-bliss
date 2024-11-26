@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cafeteria Bliss</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">☕ Cafeteria Bliss</div>
+            <ul class="nav-links">
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#contac">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="menu">
+            <h1>Nosso Menu</h1>
+            <div class="menu-container">
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1630874606750-0fecca12fc99?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Café Latte">
+                    <h2>Café Latte</h2>
+                    <p>R$ 10,00</p>
+                    <button class="add-to-cart" data-name="Café Latte" data-price="10.00">Adicionar ao Carrinho</button>
+                </div>
+                <div class="menu-item">
+                    <img src="https://images.unsplash.com/photo-1593443320739-77f74939d0da?q=80&w=1336&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Cappucino">
+                    <h2>Cappucino</h2>
+                    <p>R$ 12.00</p>
+                    <button class="add-to-cart" data-name="Cappucino" data-price="12.00">Adicionar ao Carrinho</button>
+                    <div class="menu-item">
+                        <img src="https://images.unsplash.com/photo-1594261956806-3ad03785c9b4?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D alt="Expresso">
+                        <h2>Expresso</h2>
+                        <p>R$ 8.00</p>
+                        <button class="add-to-cart" data-name="Expresso" data-price="8.00">Adicionar ao Carrinho</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="cart">
+            <h1>Carrinho</h1>
+            <ul class="cart-item"></ul>
+            <p>Total: R$ <span id="total-price">0.00</span></p>
+        </section>
+
+        <section id="about">
+            <h1>Sobe Nós</h1>
+            <p>A Cafeteria Bliss é onde o amor pelo café encontra o sabor perfeito</p>
+        </section>
+
+        <section id="contac">
+            <h1>Contato</h1>
+            <p>Email: contato@cafeteriabliss.com</p>
+            <p> Telefone (47) 9999-9999</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Cafeteria Bliss. Todos os direitos reservados.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
